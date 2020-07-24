@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name MCU_ST_STM32L0)(type Legacy)(uri /home/steven/ownCloud/projects/kicad/MCU_ST_STM32L0.lib)(options "")(descr ""))
+  (lib (name Sensor_Temperature)(type Legacy)(uri /home/steven/Downloads/Eletronics/Sensor_Temperature/Sensor_Temperature.lib)(options "")(descr ""))
+)
