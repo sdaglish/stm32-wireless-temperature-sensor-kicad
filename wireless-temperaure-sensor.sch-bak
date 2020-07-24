@@ -10,7 +10,7 @@ Rev "v0.2"
 Comp ""
 Comment1 "Used in low power tests"
 Comment2 "Pull up/down added after testing"
-Comment3 ""
+Comment3 "SCL moved from pin 10 to pin 17 for pcb tracing"
 Comment4 ""
 $EndDescr
 $Comp
