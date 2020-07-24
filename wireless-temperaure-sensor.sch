@@ -98,13 +98,13 @@ NRST
 Text Notes 2100 2450 2    50   ~ 0
 ST-Link pins in no particular order\n\n
 Wire Notes Line
-	600  2150 2250 2150
+	600  2150 2600 2150
 Wire Notes Line
-	2250 2150 2250 3300
+	2600 2150 2600 3700
 Wire Notes Line
-	2250 3300 600  3300
+	2600 3700 600  3700
 Wire Notes Line
-	600  3300 600  2150
+	600  3700 600  2150
 Text Label 4250 2850 2    50   ~ 0
 GND
 $Comp
@@ -685,4 +685,27 @@ $EndComp
 NoConn ~ 4250 3750
 Text Label 5450 3150 0    50   ~ 0
 SCL
+$Comp
+L Switch:SW_MEC_5G SW1
+U 1 1 5F1B3952
+P 1950 3100
+F 0 "SW1" V 1904 3248 50  0000 L CNN
+F 1 "SW_MEC_5G" V 1995 3248 50  0000 L CNN
+F 2 "Button_Switch_SMD:SW_Push_SPST_NO_Alps_SKRK" H 1950 3300 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 1950 3300 50  0001 C CNN
+	1    1950 3100
+	0    1    1    0   
+$EndComp
+Connection ~ 1950 2900
+$Comp
+L power:GND #PWR0104
+U 1 1 5F1B570B
+P 1950 3300
+F 0 "#PWR0104" H 1950 3050 50  0001 C CNN
+F 1 "GND" H 1955 3127 50  0000 C CNN
+F 2 "" H 1950 3300 50  0001 C CNN
+F 3 "" H 1950 3300 50  0001 C CNN
+	1    1950 3300
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
