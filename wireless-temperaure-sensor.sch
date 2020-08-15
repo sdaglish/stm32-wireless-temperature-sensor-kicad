@@ -98,13 +98,13 @@ NRST
 Text Notes 2100 2450 2    50   ~ 0
 ST-Link pins in no particular order\n\n
 Wire Notes Line
-	600  2150 2250 2150
+	600  2150 2600 2150
 Wire Notes Line
-	2250 2150 2250 3300
+	2600 2150 2600 3700
 Wire Notes Line
-	2250 3300 600  3300
+	2600 3700 600  3700
 Wire Notes Line
-	600  3300 600  2150
+	600  3700 600  2150
 Text Label 4250 2850 2    50   ~ 0
 GND
 $Comp
@@ -306,9 +306,9 @@ Connection ~ 7750 4350
 Wire Wire Line
 	7500 4450 7400 4450
 Connection ~ 7500 4450
-Text Label 7400 4350 2    50   ~ 0
+Text Label 7450 4350 2    50   ~ 0
 SDA
-Text Label 7400 4450 2    50   ~ 0
+Text Label 7450 4450 2    50   ~ 0
 SCL
 Text Label 5450 3050 0    50   ~ 0
 SDA
@@ -685,4 +685,119 @@ $EndComp
 NoConn ~ 4250 3750
 Text Label 5450 3150 0    50   ~ 0
 SCL
+$Comp
+L power:GND #PWR0104
+U 1 1 5F1B570B
+P 1950 3300
+F 0 "#PWR0104" H 1950 3050 50  0001 C CNN
+F 1 "GND" H 1955 3127 50  0000 C CNN
+F 2 "" H 1950 3300 50  0001 C CNN
+F 3 "" H 1950 3300 50  0001 C CNN
+	1    1950 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP2
+U 1 1 5F2FAA18
+P 6800 1700
+F 0 "TP2" V 6800 1950 50  0000 C CNN
+F 1 " " V 6904 1772 50  0000 C CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 7000 1700 50  0001 C CNN
+F 3 "~" H 7000 1700 50  0001 C CNN
+	1    6800 1700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:TestPoint TP3
+U 1 1 5F2FAF9D
+P 6800 1800
+F 0 "TP3" V 6800 2050 50  0000 C CNN
+F 1 " " V 6904 1872 50  0000 C CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 7000 1800 50  0001 C CNN
+F 3 "~" H 7000 1800 50  0001 C CNN
+	1    6800 1800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:TestPoint TP4
+U 1 1 5F2FB250
+P 6800 1900
+F 0 "TP4" V 6800 2150 50  0000 C CNN
+F 1 " " V 6904 1972 50  0000 C CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 7000 1900 50  0001 C CNN
+F 3 "~" H 7000 1900 50  0001 C CNN
+	1    6800 1900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:TestPoint TP5
+U 1 1 5F2FBC78
+P 6800 2100
+F 0 "TP5" V 6800 2350 50  0000 C CNN
+F 1 " " V 6904 2172 50  0000 C CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 7000 2100 50  0001 C CNN
+F 3 "~" H 7000 2100 50  0001 C CNN
+	1    6800 2100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7750 1600 6800 1600
+Connection ~ 7750 1600
+Wire Wire Line
+	7500 1700 6800 1700
+Connection ~ 7500 1700
+Wire Wire Line
+	7750 1800 6800 1800
+Connection ~ 7750 1800
+Wire Wire Line
+	7250 1900 6800 1900
+Connection ~ 7250 1900
+Wire Wire Line
+	7000 2100 6800 2100
+Connection ~ 7000 2100
+$Comp
+L Connector:TestPoint TP6
+U 1 1 5F3066CE
+P 7400 4350
+F 0 "TP6" V 7400 4600 50  0000 C CNN
+F 1 " " V 7504 4422 50  0000 C CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 7600 4350 50  0001 C CNN
+F 3 "~" H 7600 4350 50  0001 C CNN
+	1    7400 4350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:TestPoint TP7
+U 1 1 5F307090
+P 7400 4450
+F 0 "TP7" V 7400 4700 50  0000 C CNN
+F 1 " " V 7504 4522 50  0000 C CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 7600 4450 50  0001 C CNN
+F 3 "~" H 7600 4450 50  0001 C CNN
+	1    7400 4450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:TestPoint TP1
+U 1 1 5F2F9469
+P 6800 1600
+F 0 "TP1" V 6800 1850 50  0000 C CNN
+F 1 " " V 6904 1672 50  0000 C CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 7000 1600 50  0001 C CNN
+F 3 "~" H 7000 1600 50  0001 C CNN
+	1    6800 1600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW1
+U 1 1 5F36F31F
+P 1950 3100
+F 0 "SW1" V 1904 3248 50  0000 L CNN
+F 1 "SW_Push" V 1995 3248 50  0000 L CNN
+F 2 "Button_Switch_SMD:SW_Push_SPST_NO_Alps_SKRK" H 1950 3300 50  0001 C CNN
+F 3 "~" H 1950 3300 50  0001 C CNN
+	1    1950 3100
+	0    1    1    0   
+$EndComp
+Connection ~ 1950 2900
 $EndSCHEMATC
