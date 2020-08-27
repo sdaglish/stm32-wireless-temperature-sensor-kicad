@@ -5,12 +5,12 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "STM32 battery-powered wireless temperature sensor"
-Date "2020-07-23"
-Rev "v0.2"
+Date "2020-08-27"
+Rev "v0.3.0"
 Comp ""
-Comment1 ""
-Comment2 "Pull up/down added after testing"
-Comment3 "SCL moved from pin 10 to pin 17 for pcb tracing"
+Comment1 "First PCB of project with JLC PCB"
+Comment2 ""
+Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
